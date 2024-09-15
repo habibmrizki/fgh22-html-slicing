@@ -12,7 +12,7 @@ Platform pemesanan tiket film yang responsif dan ramah pengguna. Pengguna dapat 
 
 ## Teknologi yang Digunakan
 
-- **HTML**: Untuk struktur halaman web.
+- [HTML]: Untuk struktur halaman web.
 - **CSS**: Untuk desain dan tata letak.
 - **JavaScript**: Fungsi client-side dan validasi form.
 - **Feather Icons**: Ikon vektor yang bisa diskalakan.
