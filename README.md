@@ -2,6 +2,10 @@
 
 Platform pemesanan tiket film yang responsif dan ramah pengguna. Pengguna dapat mendaftar, masuk, serta menelusuri film termasuk rilis terbaru.
 
+[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
+
 ## Fitur
 
 - **Halaman Utama**: Menelusuri bioskop terdekat, film terbaru, dan film yang akan datang.
@@ -12,11 +16,11 @@ Platform pemesanan tiket film yang responsif dan ramah pengguna. Pengguna dapat 
 
 ## Teknologi yang Digunakan
 
-- [HTML]: Untuk struktur halaman web.
+- **HTML**: Untuk struktur halaman web.
 - **CSS**: Untuk desain dan tata letak.
 - **JavaScript**: Fungsi client-side dan validasi form.
 - **Feather Icons**: Ikon vektor yang bisa diskalakan.
-- **Google Fonts**: Tipografi khusus.
+- **Google Fonts**: Tipografi tulisan khusus.
 
 ## Halaman
 
@@ -31,3 +35,24 @@ Platform pemesanan tiket film yang responsif dan ramah pengguna. Pengguna dapat 
 3. **Halaman Sign In** (`Sign-in.html`):
    - Formulir bagi pengguna yang sudah terdaftar untuk masuk dengan email dan password.
    - Tombol untuk menampilkan atau menyembunyikan password serta tautan untuk reset password dan daftar.
+  
+
+## Struktur
+
+.
+├── assets
+│   ├── css
+│   │   ├── home-page.css
+│   │   ├── sign-up.css
+│   │   └── sign-in.css
+│   ├── img
+│   │   ├── logo-web.png
+│   │   ├── logo-eye.png
+│   │   ├── spiderman.png
+│   │   └── ...
+│   └── js
+│       ├── sign-up.js
+│       └── sign-in.js
+├── Home-page.html
+├── Sign-up.html
+└── Sign-in.html
