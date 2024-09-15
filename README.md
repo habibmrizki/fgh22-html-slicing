@@ -24,14 +24,14 @@ Platform pemesanan tiket film yang responsif dan ramah pengguna. Pengguna dapat 
 
 ## Halaman
 
-1. **Halaman Utama** (`Home-page.html`):
+1. **Halaman Utama** :
    - Menampilkan poster film, film yang akan datang, dan bagian "Join Member".
    - Menu navigasi dengan tautan untuk mendaftar dan ke bagian lain.
 
-2. **Halaman Sign Up** (`Sign-up.html`):
+2. **Halaman Sign Up** :
    - Formulir untuk membuat akun baru dengan kolom nama depan, nama belakang, nomor telepon, email, dan password.
    - Tombol untuk menampilkan atau menyembunyikan password.
 
-3. **Halaman Sign In** (`Sign-in.html`):
+3. **Halaman Sign In** :
    - Formulir bagi pengguna yang sudah terdaftar untuk masuk dengan email dan password.
    - Tombol untuk menampilkan atau menyembunyikan password serta tautan untuk reset password dan daftar.
