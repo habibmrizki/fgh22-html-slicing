@@ -35,3 +35,7 @@ Platform pemesanan tiket film yang responsif dan ramah pengguna. Pengguna dapat 
 3. **Halaman Sign In** :
    - Formulir bagi pengguna yang sudah terdaftar untuk masuk dengan email dan password.
    - Tombol untuk menampilkan atau menyembunyikan password serta tautan untuk reset password dan daftar.
+
+## Credit
+
+> Habib Muhammad Rizki
