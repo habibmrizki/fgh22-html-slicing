@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- My CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/sign-in.css" />
     <!-- My Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,15 +16,6 @@
   </head>
   <body>
     <div class="auth-container">
-      <!-- <div class="left-auth-container">
-        <img src="/assets/img/poster-auth.png" alt="" />
-        <div class="text-container">
-          <div class="title-container">
-            <img src="/assets/img/logo-web.png" alt="" />
-          </div>
-          <div class="parag-container">wait, watch, wow!</div>
-        </div>
-      </div> -->
       <div class="left-auth-container">
         <div class="text-container">
           <div class="title-container">
@@ -34,7 +25,7 @@
         </div>
       </div>
       <div class="right-auth-container">
-        <form action="">
+        <form onsubmit="checkSignIn(event)">
           <div class="text-signin-top">
             <div>Sign In</div>
             <div>
@@ -54,22 +45,24 @@
                 name="password"
                 id="password"
               />
-              <button><img src="assets/img/logo-eye.png" alt="" /></button>
+              <button type="button" className="bg-transparent w-[55px]">
+                <img src="assets/img/logo-eye.png" alt="" />
+              </button>
             </div>
           </div>
-          <a href="/Home-page.html">
-            <button class="button-auth-container" type="button">Sign In</button>
-          </a>
+          <button class="button-auth-container" type="submit">Sign In</button>
           <div class="text-signin-bottom">
             <div class="link-signin">
               Forgot your password?<a href="#"> Reset now</a>
             </div>
             <div class="link-signin">
-              Dont have an account?<a href="/Sign-up.html"> Sign Up</a>
+              Don't have an account?<a href="/Sign-up.html"> Sign Up</a>
             </div>
           </div>
         </form>
       </div>
     </div>
+    <!-- my script -->
+    <script src="assets/js/sign-in.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- My CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/sign-up.css" />
     <!-- My Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +25,8 @@
         </div>
       </div>
       <div class="right-auth-container">
-        <form action="">
+        <!-- <img src="/assets/img/Tickitz.png" alt=""> -->
+        <form onsubmit="checkSignUp(event)">
           <div class="text">
             <div>Sign Up</div>
             <div>fill your additional details</div>
@@ -36,6 +37,7 @@
               type="text"
               id="firstname"
               placeholder="Write your first name"
+              name="firstname"
             />
           </div>
           <div class="form-lastname">
@@ -44,6 +46,7 @@
               type="text"
               id="lastname"
               placeholder="Write your last name"
+              name="lastname"
             />
           </div>
           <div class="form-phonenumber">
@@ -52,11 +55,17 @@
               type="text"
               id="phonenumber"
               placeholder="Write your phone number"
+              name="phonenumber"
             />
           </div>
           <div class="form-email">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Write your email" />
+            <input
+              type="email"
+              id="email"
+              placeholder="Write your email"
+              name="email"
+            />
           </div>
           <div class="form-pass">
             <label for="password">Password</label>
@@ -67,17 +76,19 @@
                 name="password"
                 id="password"
               />
-              <button><img src="assets/img/logo-eye.png" alt="" /></button>
+              <button type="button">
+                <img src="assets/img/logo-eye.png" alt="" />
+              </button>
             </div>
           </div>
-        </form>
-        <a href="/Sign-in.html">
+          <!-- Pindahkan tombol ke dalam form -->
           <button class="button-auth-container" type="submit">Sign Up</button>
-        </a>
+        </form>
         <div class="link-signin">
           Already have account? <a href="/Sign-in.html">Sign in</a>
         </div>
       </div>
     </div>
+    <script src="assets/js/sign-up.js"></script>
   </body>
 </html>
